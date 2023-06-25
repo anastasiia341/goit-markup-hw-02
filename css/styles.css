@@ -172,6 +172,7 @@ font-size: 36px;
 }
 
 .portfolio-button{
+    font-family: "Roboto", sans-serif;
     color: var(--accent-color);
     background-color: var(--secondary-white-color);
     cursor: pointer;
