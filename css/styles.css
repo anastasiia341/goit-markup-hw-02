@@ -24,7 +24,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
-a{
+.link{
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ ul{
     font-family: Raleway, sans-serif;
     font-size: 18px;
         font-weight: 800;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -46,17 +46,22 @@ ul{
     font-family: Raleway, sans-serif;
     font-size: 18px;
         font-weight: 800;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 
-.nav-list>link  {
+.nav .link  {
     color: var(--title-text-color);
     font-size: 16px;
     font-weight: 500;
         line-height: 1.5;
 }
+
+.address{
+    font-style: normal;
+}
+
 .address-link{
     color: var(--primary-text-color);
     font-size: 16px;
@@ -133,7 +138,7 @@ font-size: 36px;
     font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 
