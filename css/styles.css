@@ -179,3 +179,6 @@ font-size: 36px;
     color: var(--primary-white-color);
     background-color: #404BBF;
 }
+.portfolio-list{
+    list-style: none;
+}
