@@ -147,7 +147,8 @@ font-size: 36px;
         letter-spacing: 0.4px;
 }
 
-.section-team{
+
+.list-item{
     background-color: var(--secondary-white-color);
 }
 
