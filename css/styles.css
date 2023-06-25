@@ -30,7 +30,7 @@ body{
 ul{
     list-style: none;
 }
-.link{
+.link.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -53,7 +53,7 @@ ul{
 
 }
 
-.list-item{
+.list-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -62,16 +62,14 @@ ul{
     color: var(--title-text-color);
 }
 
-.list-item:hover,
-.list-item:focus{
+.link.nav:hover,
+.link.nav:focus{
     color: #404bbf;
 }
 .list{
     list-style: none;
 }
  
-
-
 .address{
     font-style: normal;
 }
@@ -157,7 +155,7 @@ font-size: 36px;
     background-color: var(--title-text-color);
 }
 
-.footer .link-logo-accent{
+.footer .link-accent{
     color: var(--secondary-white-color);
     font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -189,4 +187,12 @@ font-size: 36px;
 }
 .list{
     list-style: none;
+}
+
+.list.link{
+    text-decoration: none;
+}
+.section-text{
+    color: var(--primary-text-color)
+   
 }
