@@ -193,7 +193,11 @@ font-size: 36px;
 .list.link{
     text-decoration: none;
 }
-.section-text{
-    color: var(--primary-text-color)
+.section-team{
+    background-color: var(--secondary-white-color);
+}
+
+.section-team .list{
+    background-color: var(--primary-white-color);
    
 }
