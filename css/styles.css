@@ -24,39 +24,49 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
-.link{
-    text-decoration: none;
-}
+
+
 
 ul{
     list-style: none;
 }
-.logo {
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--accent-color);
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+    text-decoration: none;
 }
 
-.nav .logo-accent {
-    color: var(--title-text-color);
-    font-family: Raleway, sans-serif;
+.logo-link-accent{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    text-decoration: none;
 }
 
-.nav .link  {
-    color: var(--title-text-color);
-    font-size: 16px;
+.nav-link{
     font-weight: 500;
-        line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-text-color);
 }
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+ 
+
 
 .address{
     font-style: normal;
@@ -66,7 +76,7 @@ ul{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
+    text-decoration: none;
 
 }
 
@@ -87,7 +97,7 @@ ul{
         letter-spacing: 1.12px;
         text-align: center;
 }
-button{
+.primary-button{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -99,6 +109,13 @@ button{
     
 }
 
+.primary-button:hover,
+.primary-button:focus{
+    color: #404BBF;
+}
+
+
+
 .section {}
 
 .special-title{
@@ -109,7 +126,7 @@ button{
     color: var(--title-text-color);
 font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
@@ -133,7 +150,7 @@ font-size: 36px;
     background-color: var(--title-text-color);
 }
 
-.footer .logo-accent{
+.footer .logo-link-accent{
     color: var(--secondary-white-color);
     font-family: Raleway, sans-serif;
         font-size: 18px;
