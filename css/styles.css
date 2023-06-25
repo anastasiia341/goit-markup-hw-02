@@ -82,8 +82,8 @@ ul{
 
 }
 
-.address-link:hover,
-.address-link:focus{
+.link.address:hover,
+.link.address:focus{
     color: #404BBF;
 }
 
