@@ -30,7 +30,7 @@ body{
 ul{
     list-style: none;
 }
-.link-logo{
+.link{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -42,7 +42,7 @@ ul{
   
 }
 
-.link-logo-accent{
+.link-accent{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -53,7 +53,7 @@ ul{
 
 }
 
-.nav-link{
+.list-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -62,8 +62,8 @@ ul{
     color: var(--title-text-color);
 }
 
-.nav-link:hover,
-.nav-link:focus{
+.list-item:hover,
+.list-item:focus{
     color: #404bbf;
 }
 .list{
